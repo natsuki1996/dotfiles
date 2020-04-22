@@ -7,7 +7,7 @@
 !/.
 !/.bin/
 !/.bin/**
-
+!/.github/**
 
 !/README.md
 !/LICENSE
