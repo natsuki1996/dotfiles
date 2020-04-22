@@ -1,6 +1,4 @@
-<p align="center">
-  <font size="7">DOTFILES</font>
-</p>
+<h1 align="center">DOTFILES</h1>
 
 <p align="center">
   <a href=#><img src="https://github.com/natsuki1996/dotfiles/workflows/CI/badge.svg" alt="Build Status"></a>
