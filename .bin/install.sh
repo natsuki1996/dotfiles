@@ -13,8 +13,9 @@ link_to_homedir() {
     command mkdir "$HOME/.dotbackup"
   fi
 
-  local script_dir, dotdir
+  local script_dir
   script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
+  local dotdir
   dotdir=$(dirname "$script_dir")
   if [[ "$HOME" != "$dotdir" ]];then
     for f in "$dotdir"/.??*; do
