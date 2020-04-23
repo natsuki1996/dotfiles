@@ -1,0 +1,13 @@
+name: macos
+
+on: [push]
+
+jobs:
+  macos-test:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dotfiles
+        run: bash .bin/install.sh install

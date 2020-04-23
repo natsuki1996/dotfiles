@@ -1,0 +1,16 @@
+name: lint
+
+on: [push]
+
+jobs:
+  ubuntu:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install required packages
+        run: brew install shellcheck
+
+      - name: Check bin/init.sh
+        run: shellcheck ${GITHUB_WORKSPACE}/.bin/install.sh

@@ -1,7 +1,9 @@
 <h1 align="center">DOTFILES</h1>
 
 <p align="center">
-  <a href=#><img src="https://github.com/natsuki1996/dotfiles/workflows/CI/badge.svg" alt="Build Status"></a>
+  <a href="https://github.com/natsuki1996/dotfiles/actions?query=workflow%3Amacos"><img src="https://github.com/natsuki1996/dotfiles/workflows/macos/badge.svg" alt="ci-macos"></a>
+  <a href="https://github.com/natsuki1996/dotfiles/actions?query=workflow%3Alinux"><img src="https://github.com/natsuki1996/dotfiles/workflows/linux/badge.svg" alt="ci-linux"></a>
+  <a href="https://github.com/natsuki1996/dotfiles/actions?query=workflow%3Alint"><img src="https://github.com/natsuki1996/dotfiles/workflows/lint/badge.svg" alt="ci-lint"></a>
   <a href="https://github.com/zsh-users/zsh"><img src="https://img.shields.io/badge/built%20with-zsh-green" alt="zsh"></a>
   <!-- <a href="https://github.com/tmux/tmux"><img src="https://img.shields.io/badge/built%20with-tmux-green.svg" alt="tmux"></a> -->
   <a href=#><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License"></a>
