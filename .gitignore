@@ -5,8 +5,6 @@
 ### not ignore ###
 !/.zshrc
 !/.
-!/.bin/
-!/.bin/**
 !/.github/
 !/.github/**
 

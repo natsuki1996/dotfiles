@@ -15,11 +15,11 @@
 
 ```bash
 git clone https://github.com/natsuki1996/dotfiles.git
-bash dotfiles/.bin/install.sh
+bash dotfiles/install.sh
 ```
 
 ## Packages
 
 - zsh
-- vim ()
-- tmux ()
+- (vim)
+- (tmux)
