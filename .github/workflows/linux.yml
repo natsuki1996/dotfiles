@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Install dotfiles
-        run: bash ${GITHUB_WORKSPACE}/install.sh
+        run: bash ${GITHUB_WORKSPACE}/install
