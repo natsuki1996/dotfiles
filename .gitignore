@@ -11,8 +11,6 @@
 !/tmux.conf
 !/install.conf.yaml
 !/install
-
-!/install.sh
 !/README.md
 !/LICENSE
 !.gitignore
