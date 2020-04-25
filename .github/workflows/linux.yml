@@ -9,8 +9,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install required packages
-        run: apt-get update && apt-get install -y git python
-
       - name: Install dotfiles
         run: bash ${GITHUB_WORKSPACE}/install
