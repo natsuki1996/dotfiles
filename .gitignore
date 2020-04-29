@@ -9,6 +9,8 @@
 !/.github/**
 !/vimrc
 !/tmux.conf
+!/p10k.zsh
+
 !/install.conf.yaml
 !/install
 !/README.md

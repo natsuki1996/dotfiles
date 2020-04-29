@@ -9,6 +9,7 @@
     ~/.zshrc: zshrc
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
+    ~/.p10k.zsh: p10k.zsh
 
 - create:
     - ~/downloads
