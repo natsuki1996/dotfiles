@@ -1,14 +1,18 @@
 - defaults:
     link:
-      relink: true
+        relink: true
 
 - clean: ["~"]
 
 - link:
     ~/.dotfiles: ""
-    ~/.zshrc: zshrc
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
+    ~/.zshrc: zsh/zshrc
+    ~/.p10k.zsh: zsh/p10k.zsh
+    ~/.anaconda.zsh: zsh/anaconda.zsh
+    ~/.ruby.zsh: zsh/ruby.zsh
+    ~/.alias.zsh: zsh/alias.zsh
 
 - create:
     - ~/downloads

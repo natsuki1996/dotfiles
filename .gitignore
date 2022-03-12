@@ -3,12 +3,14 @@
 /.**
 
 ### not ignore ###
-!/zshrc
 !/.
 !/.github/
 !/.github/**
 !/vimrc
 !/tmux.conf
+!/zsh/
+!/zsh/**
+
 !/install.conf.yaml
 !/install
 !/README.md
