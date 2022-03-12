@@ -3,13 +3,13 @@
 /.**
 
 ### not ignore ###
-!/zshrc
 !/.
 !/.github/
 !/.github/**
 !/vimrc
 !/tmux.conf
-!/p10k.zsh
+!/zsh/
+!/zsh/**
 
 !/install.conf.yaml
 !/install
